@@ -18,7 +18,6 @@ Data tools are included with the [WorldWide Telescope May 2009 ADK](http://resea
 
 This section explains the basic elements of a WorldWide Telescope web client application.
 
-[View the source code.](http://wwt.thewebkid.com/docs/Samples/displaycode.htm?codeExample=WWTWebClientSimpleHtml5.html)
 
 ### Simple Web Control Walkthrough
 
@@ -27,7 +26,7 @@ Setting up a web page to host the WorldWide Telescope web control is simple. The
 1. Link to the WorldWide Telescope script in the document **head**:
 
    ```html
-   <script src="http://www.worldwidetelescope.org/scripts/wwtsdk.aspx" type="text/javascript">
+   <script src="https://wwtstaging.azurewebsites.net/webclient/sdk/wwtsdk.min.js" type="text/javascript">
    </script>
    ```
 
